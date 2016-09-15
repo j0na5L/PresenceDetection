@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/my_subscribed_beacons"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/my_beacons"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/scan_beacon"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="101"
+        android:title="@string/scan_beacon"
+        app:showAsAction="always"/>
+
+</menu>

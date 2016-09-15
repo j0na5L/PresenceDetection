@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PresenceDetection</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last name</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_title">Register User</string>
+    <string name="menu_stop">Stop</string>
+    <string name="my_beacons">Subscribed</string>
+    <string name="sort_by_rssi">By lowest rssi</string>
+    <string name="scan_beacon">Scan</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/recycler_view_card_view_subscribed_beacon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/alias_name_subscribed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="3dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/proximity_uuid_subscribed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alias_name_subscribed"
+                android:textAllCaps="true"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/major_subscribed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/proximity_uuid_subscribed"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/minor_subscribed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/major_subscribed"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
